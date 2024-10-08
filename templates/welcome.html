@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        select{
+            padding: 5px;
+            font-size: 16px;
+        }
+        #comp {
+            display: grid;
+            grid-template-columns: repeat(3, auto); /* Adjust as needed */
+            gap: 10px; /* Adjust the gap between checkboxes */
+        }
+        body{
+            background-image: url(/static/wel-bg.png);
+            background-attachment: fixed;
+            background-position: center;
+            /* background-size: 50%50%; */
+            background-repeat: no-repeat;
+            background-size: 100%auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+            <h1 style="color: rgb(14, 198, 60);">Welcome, {{ username }}!</h1>
+        <p style="color: rgb(228, 235, 32);">This is your dashboard.</p>
+        <br>
+        <!-- <a href="/stockinf" class="stockinf-button">Stock details</a> -->
+        <a href="/dashstock" class="logout-button">VIEW GRAPH</a>  
+        <br><br><br>
+        <a href="/techfilters" class="logout-button">TECH FILTERS</a>  
+        <br><br><br>
+        <a href="/strategies" class="logout-button">STRATEGIES</a>  
+        <br><br><br>
+        <a href="/logout" class="logout-button">Logout</a>  
+        <!-- <p>hi</p> -->
+    </div>
+</body>
+</html>

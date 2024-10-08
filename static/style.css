@@ -1,0 +1,275 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    margin-left: 1200px;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 300px;
+    font-size: 10px;
+    /* margin-left: 300px; */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    background-color: #09be7f;  
+
+
+}
+button:hover{
+    background-color: #e15151;
+}
+    /* Add this to your existing style.css */
+
+.welcome-container {
+    text-align: center;
+    /* background-color: white; */
+    /* padding: 200px; */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+    /* margin: auto; */
+}
+.stock-container{
+    padding-left: 10px;
+    background-color: white;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    width: 100%;
+    margin: auto; 
+}
+
+
+.i2{
+    float: left;
+    text-align: center;
+    padding-left: 100px;
+    background-color: #c5cbe3;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 850px;
+     margin-top: -240px;  
+     margin-left: -290px;
+}
+.values{
+    float: left;
+    text-align: center;
+    background-color: #d8c3a5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 250px; 
+    margin: 10px; 
+    vertical-align: top; 
+    margin-top: 50px;
+    margin-left: -120px;
+    height: 400px;
+}
+
+.whole{
+    float: right;
+    text-align: center;
+    /* padding-left: 200px; */
+    /* background-color: white; */
+    padding: 200px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    width: 800px;
+    /* width: 100%; */
+     margin-top: -50px;
+     /* margin-left: 150px; */
+     margin-right: -20px;
+     height: 400px;
+     margin-bottom: -160px;
+}
+
+.options{
+    float: right;
+    text-align: center;
+    /* background-color: white; */
+    padding: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    width: 200px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin to control space between i1 and i2 */
+    vertical-align: top; /* Align i1 and i2 to the top */
+    margin-top: -100px;
+    margin-right: -240px;
+    /* height: 200px; */
+}
+
+.drop_filter{
+    /* margin-left: 500px; */
+    background-color: #e3afbc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    width: 200px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin to control space between i1 and i2 */
+    vertical-align: top; /* Align i1 and i2 to the top */
+    margin-top: -10px;
+    /* margin-right: 100px; */
+}
+/* .examp{
+    font-size: medium;
+    /* margin-bottom: 100px; */
+    /* text-align: center;
+    background-color: #d8c3a5;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    margin: 50px;  */
+    /* vertical-align: top;  */
+    /* margin-left: 150px; */
+    /* margin-bottom: 100px; */
+
+.i1{
+    text-align: center;
+    background-color: #e3afbc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin to control space between i1 and i2 */
+    vertical-align: top; /* Align i1 and i2 to the top */
+    margin-top: 70px;
+    margin-right: -100px;
+    /* height: 200px; */
+}
+
+.welcome-container h1 {
+    /* font-size:xx-large; */
+    text-align: center;
+    /* margin-bottom: 100px; */
+}
+.stockinf-button{
+    /* display: inline-block; */
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 1000px;
+}
+.logout-button {
+    /* display: inline-block; */
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .comp {
+    position: relative;
+    margin-top: 200px;
+    padding-left: 200px;
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 10px;        
+
+} */
+
+#comp {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 5px; /* Adjust the gap between grid items */
+}
+
+/* Style for each checkbox */
+#comp label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for checkbox input */
+#comp input[type="checkbox"] {
+    margin-right: 2px; /* Adjust spacing between checkbox and label */
+}
+
+.tech{
+    padding: 20px 20px;
+}
+/* .searchFilters {
+    /* position: relative;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center; */
+
+
+.stockinf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.graph{
+    width: 1000px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+

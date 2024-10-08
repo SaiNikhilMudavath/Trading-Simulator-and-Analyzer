@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock_details</title>
+    <!-- <style>
+        .graph {
+            width: 1000px; /* Set the width of the graph container */
+            height: 50px; /* Set the height of the graph container */
+        }
+    </style> -->
+</head>
+<body>
+    <h1 style="text-align: center;">STOCK DETAILS</h1>
+    <br>
+    <!-- <img src="/static/dhoni.jpg"> -->
+    <!-- <img src="data:image/png;base64,{{ plot_url }}" alt="Generated Graph"> -->
+    <!-- <img class='',src="{{ url_for('static',filename='dhoni.jpg')}}"> -->
+    <!-- <img src="{{ url_for('static',filename='graph.svg')}}"> -->
+    <div class="graph">
+        {{ plot_html|safe }}
+        <br><br><br><br>
+        <h2>
+            Companies Data not Found:
+            {{ d }}
+        </h2>
+    </div>
+    <!-- <iframe src="plot_html" height="600" width="800" frameborder="0"></iframe> -->
+</body>
+</html>

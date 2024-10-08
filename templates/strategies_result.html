@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Tables</title>
+    <style>
+        /* Optional CSS styles for table formatting */
+        .table-container {
+            display: flex; /* Use flexbox to display tables side by side */
+        }
+
+        .table-container > div {
+            flex: 1; /* Make each table take up equal width */
+            margin-right: 20px; /* Adjust spacing between tables */
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%; /* Adjust table width as needed */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:first-child {
+            background-color: yellow; /* Adjust background color as needed */
+            font-weight: bold; /* Adjust font weight as needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- Table container to hold both tables side by side -->
+    <div class="table-container">
+        <!-- First table -->
+        <div>
+            <h3>DAILY CASHFLOW</h3>
+            {{ table1 | safe }}
+        </div>
+        
+        <!-- Second table -->
+        <div>
+            <h3>ORDER STATISTICS</h3>
+            {{ table2 | safe }}
+        </div>
+    </div>
+</body>
+</html>
